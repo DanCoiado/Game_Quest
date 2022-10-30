@@ -2,6 +2,7 @@ import logoquest from './../../images/logoQuest.svg';
 import './CSS/Login.css';
 
 import LinkButton from '../layout/LinkButton';
+import LoginForm from '../Formularios/LoginForm';
 
 function Login() {
     return (
@@ -27,16 +28,17 @@ function Login() {
                             <p>Login</p>
                         </div>
                         <div className='login-Div-Forms'>
-                            <form className='login-Forms-Containt'>
+                            <LoginForm btnText="Entrar" />
+                            {/* <form className='login-Forms-Containt'>
                                 <div className='login-Forms-Input-Container'>
-                                    {/* <label>E-mail</label> */}
+                                    {/* <label>E-mail</label> 
                                     <input placeholder='E-mail' type='text' name='E-mail' />
                                 </div>
                                 <div className='login-Forms-Input-Container'>
-                                    {/* <label>Senha</label> */}
+                                    {/* <label>Senha</label> 
                                     <input placeholder='Senha' type='text' name='Senha' />
                                 </div>
-                            </form>
+                            </form> */}
                         </div>
                         
                         <div className='login-Login'>

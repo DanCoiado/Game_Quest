@@ -100,6 +100,7 @@
 
 .login-Div-Forms{
     background-color: #F2F2F2;
+    
 }
 
 .login-Forms-Containt{
@@ -111,14 +112,10 @@
     
 }
 
-.login-Forms-Input-Container{
-
-}
-
 .login-Login{
     height: 167px;
     width: 540px;
-    background-color: #F2F2F2;
+    background-color: transparent;
     display: flex;
     justify-content: center;
     border-radius: 30px;
