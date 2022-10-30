@@ -1,5 +1,7 @@
 import logoquest from './../../images/logoQuest.svg';
-import styles from './CSS/Login.css';
+import './CSS/Login.css';
+
+import LinkButton from '../layout/LinkButton';
 
 function Login() {
     return (
@@ -12,7 +14,11 @@ function Login() {
                         </div>
                         <div className='login-Cadastro'>
                             <p> Ainda não tem conta ?</p>
-                            <button className='botao-Cadastro'>Cadastre-se</button>
+                            <div className='btn-Cadastro'>
+                                <LinkButton to = "/Cadastro" text='Cadastre-se'/>
+                            </div>
+                            {/* 
+                            <button className='botao-Cadastro'>Cadastre-se</button> */}
                         </div>
 
                     </div>
@@ -34,7 +40,10 @@ function Login() {
                         </div>
                         
                         <div className='login-Login'>
-                            <button className='botao-Login'>Login</button>
+                            <div className='botao-Login'>
+                                <LinkButton to = "/Jogo" text='Login'/>
+                            </div>
+                            {/* <button className='botao-Login'>Login</button> */}
                         </div>
                     </div>
                 </div>

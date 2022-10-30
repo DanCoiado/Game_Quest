@@ -1,7 +1,7 @@
 import logoquest from './../../images/logoQuestBranco.svg';
-import image from './../../images/ImagemFundo.svg';
 
-import styles from './CSS/Home.css';
+import './CSS/Home.css';
+import LinkButton from '../layout/LinkButton';
 
 function Home() {
     return (
@@ -10,11 +10,19 @@ function Home() {
             <div className='Fun-app-logo'>
                 <img className="App-logo" src={logoquest}  alt="logo" />
             </div>
-            <div className='Botao'>
-                <button className='Jogar'>
+            <div className='Botao'> 
+                <LinkButton to = "/Jogo" text='Jogar'/>
+                {/* <button className='Jogar'>
+                    <Link to='/Jogo'>Jogar</Link>
                     Jogar
-                </button>
-            </div>
+                </button>  */}
+            </div> 
+            <div className='Botao'> 
+                <LinkButton to = "/Login" text='Login'/>
+            </div> 
+            <div className='Botao'> 
+                <LinkButton to = "/Cadastro" text='Cadastre-se'/>
+            </div> 
         </div>
     </div>
     )

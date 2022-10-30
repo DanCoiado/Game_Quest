@@ -11,7 +11,7 @@
 
 .FundoApp {
     background-image: 
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.8)),
     url(./../../../images/ImagemFundo.svg);
     display: flex;
     background-size: cover;
@@ -32,9 +32,9 @@
     filter: brightness(100%);
 }
 
-.Jogar {
+.Botao {
     height: 70px;
-    width: 200px;
+    width: 230px;
     color: white;
     background-color: #7630D9;
     align-items: center;
@@ -42,4 +42,5 @@
     border-radius: 20px;
     display: flex;
     font-size: 40px;
+    margin-top: 25px;
 }
