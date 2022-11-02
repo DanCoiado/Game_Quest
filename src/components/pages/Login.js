@@ -41,12 +41,12 @@ function Login() {
                             </form> */}
                         </div>
                         
-                        <div className='login-Login'>
+                        {/* <div className='login-Login'>
                             <div className='botao-Login'>
                                 <LinkButton to = "/Jogo" text='Login'/>
                             </div>
                             {/* <button className='botao-Login'>Login</button> */}
-                        </div>
+                        {/*</div> */}
                     </div>
                 </div>
             </div>

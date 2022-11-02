@@ -79,23 +79,30 @@
 .cadastro-DivDireita{
     height: 668px;
     width: 540px;
-    background-color: #F2F2F2;
+    background-color: transparent;
     border-radius: 30px;
+    flex-direction: column;
+
 }
 
 .cadastro-Texto-Login{
-    height: 167px;
+    height: 100px;
     width: 540px;
-    background-color: #F2F2F2;
+    background-color: transparent;
     border-radius: 30px;
     display: flex;
-    align-items: center;
+    align-items: baseline;
     justify-content: center;
     font-size: 50px;
 }
 
 .cadastro-Div-Forms{
-    background-color: #F2F2F2;
+    background-color: transparent;
+    height: 568px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
 }
 
 .cadastro-Forms-Containt{

@@ -1,5 +1,8 @@
 import logoquest from './../../images//logoQuest.svg';
-import styles from './CSS/Cadastro.css';
+import './CSS/Cadastro.css';
+
+import CadastroForm from '../Formularios/CadastroForm';
+import LinkButton from '../layout/LinkButton';
 
 function Cadastro() {
     return (
@@ -12,30 +15,33 @@ function Cadastro() {
                         </div>
                         <div className='cadastro-Cadastro'>
                             <p> Já possui cadastro ?</p>
-                            <button className='botao-Cadastro'>Login</button>
+                            <div className='btn-Login'>
+                                <LinkButton to = '/Login' text = 'Login'/>
+                            </div>
                         </div>
 
                     </div>
                     <div className='cadastro-DivDireita'>
                         <div className='cadastro-Texto-Login'>
-                            <p>Login</p>
+                            <p>Crie sua conta</p>
                         </div>
                         <div className='cadastro-Div-Forms'>
-                            <form className='cadastro-Forms-Containt'>
+                            <CadastroForm btnText="Cadastrar" />
+                            {/* <form className='cadastro-Forms-Containt'>
                                 <div className='cadastro-Forms-Input-Container'>
-                                    {/* <label>E-mail</label> */}
+                                    <label>E-mail</label> 
                                     <input placeholder='E-mail' type='text' name='E-mail' />
                                 </div>
                                 <div className='cadastro-Forms-Input-Container'>
-                                    {/* <label>Senha</label> */}
+                                    <label>Senha</label> 
                                     <input placeholder='Senha' type='text' name='Senha' />
                                 </div>
-                            </form>
+                            </form> */}
                         </div>
                         
-                        <div className='cadastro-Login'>
+                        {/* <div className='cadastro-Login'>
                             <button className='botao-Login'>Login</button>
-                        </div>
+                        </div> */}
                     </div>
                 </div>
             </div>
