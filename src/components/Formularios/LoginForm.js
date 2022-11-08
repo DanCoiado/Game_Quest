@@ -12,7 +12,7 @@ function LoginForm( {btnText} ) {
                 placeholder="E-mail" 
             />
             <Input 
-                type="text" 
+                type="password" 
                 text="Senha" 
                 name="name" 
                 placeholder="Senha" 

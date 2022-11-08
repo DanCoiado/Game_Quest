@@ -1,8 +1,24 @@
+import { useState } from "react"
+
 import Input from "../form/Input.js"
 import SubmitButton from "../form/SubmitButton.js"
 import "./CadastroForm.css"
 
 function CadastroForm( {btnText} ) {
+    const [users, setUsers] = useState([])
+
+    fetch("http://localhost:5000/users", {
+        method: "GET",
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+        .then((resp) => resp.json())
+        .then((data) => {
+            setUsers(data)
+        })
+        .catch((err) => console.log(err))
+
     return (
         <form className="form">
             <Input 
@@ -24,13 +40,13 @@ function CadastroForm( {btnText} ) {
                 placeholder="E-mail" 
             />
             <Input 
-                type="text" 
+                type="password" 
                 text="Senha" 
                 name="name" 
                 placeholder="Senha" 
             />
             <Input 
-                type="text" 
+                type="password" 
                 text="ConfirmaSenha" 
                 name="name" 
                 placeholder="Confirmar senha" 
