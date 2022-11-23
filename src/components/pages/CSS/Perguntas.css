@@ -1,0 +1,120 @@
+
+
+#Perguntas{
+    text-align: center;
+    /*max-width: 500px;
+    background-color: #8435de;
+    background-color: rgb(0, 0, 0);
+    border-radius: 1rem;
+    padding: 2rem;*/
+
+}
+
+#Title{
+    display:inline-block;
+    
+}
+
+#popup{
+    display: none;
+}
+
+#Caixa-Perguntas{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 30px;
+    height: 200px;
+    width: 550px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#fichas{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+padding:10;
+}
+
+.alternativa{
+    color: white;
+    background-color:  #8435de;
+    background-image: linear-gradient(to right, #5a0eb1, #a054f7);
+    border-radius: 10px;
+    padding:0rem;
+    height: 50px;
+    width: 40%;
+    font-size: 20px;
+    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: inline;
+}
+
+
+.ficha{
+    color: white;
+    background-color:  #8435de;
+    background-image: linear-gradient(to right, #361a4f, #8b43e8);
+    border-radius: 50%;
+    padding: 0rem;
+    height: 80px;
+    width: 80px;
+    font-size: 60px;
+    color: #f5f3f3;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+
+   -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(153, 119, 247);
+}
+
+.perguntas-FundoTotal{
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.perguntas-FundoApp {
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./../../../images/ImagemFundo.svg);
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 768px;
+    width: 1280px;
+    border-radius: 30px;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5))
+                       */
+}
+
+.perguntas-FundoBranco{
+    height: 730px;
+    width: 610px;
+    background-color: #F2F2F2;
+    border-radius: 15px;
+}
+
+.ficha:hover{
+    background: #483D8B;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+
+
+}
+
+.alternativa:hover{ 
+    background: #483D8B;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+
+    transform: scale(1.1);
+  }
