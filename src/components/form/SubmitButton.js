@@ -1,10 +1,9 @@
 import "./SubmitButton.css"
+import * as React from 'react'
 
 function SubmitButton({text}) {
     return(
-        <div className="div_Btn">
-            <button className="btn_S">{text}</button>
-        </div>
+    <button class="btn principal_btn">{text}</button>
     )
 
 }

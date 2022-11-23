@@ -1,4 +1,5 @@
 import "./Select.css"
+import * as React from 'react'
 
 function Select({text, name,options, handleOnChange, value}) {
     return(

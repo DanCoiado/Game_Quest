@@ -1,20 +1,32 @@
-import "./Input.css"
+import "./Input.css";
+import * as React from 'react';
 
-function Input({type, text, name, placeholder, handleOnChange, value}) {
-    return(
-        <div className="form_control">
-            {/* <label htmlFor={name}>{text}:</label> */}
-            <input 
-                type={type} 
-                name={name} 
-                id={name}
-                placeholder={placeholder}
-                onChange={handleOnChange} 
-                value={value} 
-            />
-        </div>
-    )
-
+function Input({type, text, name, handleOnChange, value, id}) {
+    if (id === "cad"){
+        return(
+            <div className="form-group-cad">
+                {<label htmlFor={name}>{text}:</label>}
+                <input class="form-control"
+                    type={type} 
+                    name={name}
+                    onChange={handleOnChange} 
+                    value={value} 
+                />
+            </div>
+        )
+        } else{
+            return(
+                <div className="form-group">
+                    {<label htmlFor={name}>{text}:</label>}
+                    <input class="form-control"
+                        type={type} 
+                        name={name} 
+                        onChange={handleOnChange} 
+                        value={value} 
+                    />
+                </div>
+            )
+        }
 }
 
 export default Input

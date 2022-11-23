@@ -1,6 +1,7 @@
 import logoquest from './../../images/logoQuestBranco.svg';
 import './CSS/Default.css';
 import './CSS/Home.css';
+import './CSS/HomeLogado.css';
 import LinkButton from '../layout/LinkButton';
 import * as React from 'react';
 
@@ -13,8 +14,11 @@ function Home() {
 				<div class="brand_logo_container">
 					<img className="brand_logo_home" src={logoquest} alt="Logo" />
 				</div>
+				 	<button type="button" name="button" class="btn principal_btn_home">
+                        <LinkButton to = "/Jogo" text='Jogar'/>
+                    </button>
 					<button type="button" name="button" class="btn principal_btn_home">
-                        <LinkButton to = "/Login" text='Login'/>
+                        <LinkButton to = "/Ranking" text='Ranking'/>
                     </button>
 				</div>
 			</div>
