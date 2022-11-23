@@ -1,0 +1,167 @@
+
+#main {
+	margin: 20px 50px 20px 50px ;
+	background-color: #965;
+  } 
+  
+	  .container {
+		background-color: lightblue;
+	   background-image: url("https://wallpapercave.com/wp/wp6976839.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		display: grid;
+		float: right;
+			  
+		grid-template-columns: 90px 90px 90px;
+		grid-template-rows: 80px 80px 80px 80px 80px 80px;  /*  //14vh 14vh 14vh 14vh 14vh 14vh ;
+			  
+		align-content: center;
+		// justify-content: space-evenly;
+		// justify-content: space-around;
+		// justify-content: space-between; */
+		 justify-content: center;
+			   
+		width: 60vw;
+		height: 50vw;
+			  
+		grid-column-gap: 80px;
+		grid-row-gap: 1px;
+	  }
+  
+	  .container > div {
+		  text-align: center;
+		  line-height: 55px;
+		  font-size: 24pt;
+		  font-family: georgia;
+		  color: #fff;
+		  border: 3px solid white;
+	  }
+	
+	  
+	  #div5 {
+		/*justify-self: center;*/
+		grid-column: 1/3;
+		border-top-left-radius: 90px;
+		border-top-right-radius: 90px;
+	  }
+	  
+	  
+	  #div10 {
+		/*justify-self: center;*/
+		grid-column: 2/4;
+		border-bottom-left-radius: 90px;
+		border-bottom-right-radius: 90px;
+	  }
+	  
+	  
+	  #div5 {
+		background: linear-gradient(to right, blue 50%, green 50%);
+	  }
+	  
+	  #div10 {
+		background: linear-gradient(to right, red 50%, orange 50%);
+	  }
+	  
+  
+	  
+	  /* DIV Início */ 
+	  #div0 {
+		background-color: skyblue;
+		justify-self: center;
+		width: 160%;
+		height: 160%;
+		border: 2px solid black;
+		border-radius: 50%;
+		line-height: 125px;
+		text-align: center;
+		position: relative;
+		top: -15px;
+		font-size: 26pt;
+		font-family: georgia;
+		color: blue;
+	  }
+	  
+	  /* DIV F */ 
+	  #div15 {
+		background-color: lightgreen;
+		justify-self: center;
+		width: 160%;
+		height: 160%;
+		border: 2px solid black;
+		border-radius: 50%;
+		line-height: 125px;
+		text-align: center;
+		position: relative;
+		top: -35px;
+		font-size: 26pt;
+		font-family: georgia;
+		color: blue;
+	  }
+	  
+	  
+	  .btn {
+		font-family: Arial, Helvetica, sans-serif;
+		font-size: 14pt;
+		width: 140px;
+		height: 40px;
+		background-color: #0066b8;
+		padding: 1px 1px;
+		margin: 5px 50px;
+		border: none;
+		color: white;
+		border-radius: 5px;
+		display:inline-block;
+		cursor: pointer;
+	  }
+	  
+	  .btn:hover {
+		background-color: #006600;
+	  }
+	
+	
+	.categ {
+	  width: 100px;
+	  height: 40px;
+	  border: 1px solid white;
+	  margin: 3px;
+	  padding: 2px;
+	  color: #ffc;
+	  
+	}
+	
+	#divp1, #divp2 {
+	  display: inline-block;
+	  float: left;
+	  border: 2px solid gray;
+	  padding: 10px;
+	  margin: 15px;
+	  
+	}
+	
+	
+	.mundo {
+	  background-color: orange;
+	} 
+   
+	
+	.artEnt {
+	  background-color: red;
+	}
+  
+	.socied {
+	  background-color: purple;
+	}
+	
+	.cieTec {
+	  background-color: blue;
+	}
+	
+	.espLaz {
+	  background-color: green;
+	}
+  
+	.varied {
+	  background-color: tomato;
+	}  
+  
+  

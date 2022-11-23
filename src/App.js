@@ -3,6 +3,7 @@ import Home from './components/pages/Home.js'
 import Cadastro from './components/pages/Cadastro.js'
 import Jogo from './components/pages/Jogo.js'
 import Login from './components/pages/Login.js'
+import Perguntas from './components/pages/Perguntas.js'
 
 import logoquest from './images/logoQuestBranco.svg';
 import image from './images/ImagemFundo.svg'
@@ -17,6 +18,7 @@ function App() {
         <Link to="/Cadastro">Cadastro</Link>
         <Link to="/Login">Login</Link>
         <Link to="/Jogo">Jogo</Link>
+        <Link to="/Perguntas">Perguntas</Link>
       </div>
       <Switch>
         <Container>
@@ -31,6 +33,9 @@ function App() {
           </Route>
           <Route exact path="/Login">
             <Login />
+          </Route>
+          <Route exact path="/Perguntas">
+            <Perguntas />
           </Route>
         </Container>
       </Switch>
