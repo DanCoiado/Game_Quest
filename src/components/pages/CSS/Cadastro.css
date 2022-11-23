@@ -1,46 +1,19 @@
 
-.cadastro-FundoTotal{
-    min-height: 100vh;
-    height: 100%;
-    width: 100%;
-    background-color: black;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-
-.cadastro-FundoApp {
-    background-image: 
-    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
-    url(./../../../images/ImagemFundo.svg);
-    display: flex;
-    background-size: cover;
-    align-items: center;
-    justify-content: center;
-    /* flex-direction: column; */
-    height: 768px;
-    width: 1280px;
-    border-radius: 30px;
-    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5),
-                       rgba(0, 0, 0, 0.5))
-                       */
-}
-
-.cadastro-FundoBranco{
-    height: 668px;
-    width: 1080px;
-    background-color: #F2F2F2;
-    border-radius: 30px;
-    display: flex;
-}
-
-.cadastro-DivEsquerda{
-    height: 668px;
-    width: 540px;
+.user_card {
+    margin-top: auto;
+    margin-bottom: auto;
+    background: #F3F1F1;
+    position: relative;
     display: flex;
     flex-direction: column;
-    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 3vh;
+    width: 80%;
 }
+<<<<<<< HEAD
 
 .cadastro-gradient-LogoQuest{
     height: 334px;
@@ -111,22 +84,31 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+=======
+>>>>>>> biadev
     
+h2{
+    text-align: center;
 }
 
-.cadastro-Forms-Input-Container{
-
+.brand_logo_container {
+    width: 100%;
+    padding: 3%;
+    text-align: center;
 }
 
-.cadastro-Login{
-    height: 167px;
-    width: 540px;
-    background-color: #F2F2F2;
-    display: flex;
-    justify-content: center;
-    border-radius: 30px;
+.brand_logo {
+    height: 80%;
+    width: 80%;
+}
+    
+.sair{
+    height: 4%;
+    width: 4%;
+    align-self: end;
 }
 
+<<<<<<< HEAD
 .botao-Login{
     background-color: #7630D9;
     height: 40px;
@@ -136,3 +118,57 @@
     border-color: #7630D9;
 }
 
+=======
+.form_container_cad {
+    margin: 3%;
+    width: 85%;
+}
+    
+.principal_btn {
+    border-radius : 15vh;
+    width: 20vh;
+    background: linear-gradient(180deg, #9049EC 0%, #661DC4 50%, #9049EC 100%);
+    color: white !important;
+    text-decoration: none;
+}
+
+.principal_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+    text-decoration: none;
+}
+    
+.secundario_btn {
+    border-radius : 15vh;
+    width: 20vh;
+    background: linear-gradient(180deg, #057992 0%, #055566 51.56%, #057992 100%);
+    color: white !important;
+    align-self: center;
+}
+
+.secundario_btn:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.login_container {
+    padding: 0 2rem;
+}
+
+.input-group-text {
+    background: #c0392b !important;
+    color: white !important;
+    border: 0 !important;
+    border-radius: 0.25rem 0 0 0.25rem !important;
+}
+
+.input_user,
+    .input_pass:focus {
+    box-shadow: none !important;
+    outline: 0px !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #c0392b !important;
+}
+>>>>>>> biadev
