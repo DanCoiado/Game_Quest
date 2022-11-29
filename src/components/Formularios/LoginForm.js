@@ -1,26 +1,23 @@
 import Input from "../form/Input.js"
 import SubmitButton from "../form/SubmitButton.js"
 import "./LoginForm.css"
-import * as React from 'react'
 
 function LoginForm( {btnText} ) {
     return (
-        <form>
+        <form className="form">
             <Input 
-                type="email" 
+                type="text" 
                 text="E-mail" 
-                name="email" 
+                name="name" 
                 placeholder="E-mail" 
-                id="log"
             />
             <Input 
                 type="text" 
                 text="Senha" 
-                name="senha" 
+                name="name" 
                 placeholder="Senha" 
-                id="log"
             />
-            <div class="d-flex justify-content-center mt-3 login_container">
+            <div className="form_btn">
                 <SubmitButton text={btnText} />
             </div>
         </form>

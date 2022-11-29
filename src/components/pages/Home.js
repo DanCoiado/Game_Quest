@@ -1,25 +1,30 @@
 import logoquest from './../../images/logoQuestBranco.svg';
-import './CSS/Default.css';
+
 import './CSS/Home.css';
 import LinkButton from '../layout/LinkButton';
-import * as React from 'react';
 
 function Home() {
     return (
-    <div class="container h-100">
-		<div class="d-flex justify-content-center h-100">
-			<div class="user_card_home">
-				<div class="d-flex flex-column">
-				<div class="brand_logo_container">
-					<img className="brand_logo_home" src={logoquest} alt="Logo" />
-				</div>
-					<button type="button" name="button" class="btn principal_btn_home">
-                        <LinkButton to = "/Login" text='Login'/>
-                    </button>
-				</div>
-			</div>
-		</div>
-	</div>
+    <div className='FundoTotal'>
+        <div className="FundoApp" >
+            <div className='Fun-app-logo'>
+                <img className="App-logo" src={logoquest}  alt="logo" />
+            </div>
+            <div className='Botao'> 
+                <LinkButton to = "/Jogo" text='Jogar'/>
+                {/* <button className='Jogar'>
+                    <Link to='/Jogo'>Jogar</Link>
+                    Jogar
+                </button>  */}
+            </div> 
+            <div className='Botao'> 
+                <LinkButton to = "/Login" text='Login'/>
+            </div> 
+            <div className='Botao'> 
+                <LinkButton to = "/Cadastro" text='Cadastre-se'/>
+            </div> 
+        </div>
+    </div>
     )
 }
 

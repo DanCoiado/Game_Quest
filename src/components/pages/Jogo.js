@@ -1,9 +1,5 @@
-
 import './CSS/Jogo.css';
-import * as React from 'react';
-function Jogo() {
-    return (<h1>Jogo</h1>)
-}
+
 function Jogo() {
 /*
     // --------------   TROCAR A IMAGEM DE FUNDO DO TABULEIRO  ------------------------------------------

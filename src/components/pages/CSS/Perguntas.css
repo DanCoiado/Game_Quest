@@ -33,14 +33,13 @@
     align-items: center;
     justify-content: center;
     display: flex;
-padding:10;
+    padding:10;
 }
 
 .alternativa{
     color: white;
-    background-color:  #8435de;
-    background-image: linear-gradient(to right, #5a0eb1, #a054f7);
-    border-radius: 10px;
+    background: linear-gradient(180deg, #9049EC 0%, #661DC4 50%, #9049EC 100%);
+    border-radius : 15vh;
     padding:0rem;
     height: 50px;
     width: 40%;
@@ -49,17 +48,22 @@ padding:10;
     margin-left: 20px;
     margin-right: 20px;
     display: inline;
+    border-color: white;
 }
 
+.f-ficha{
+border: none;
+}
 
 .ficha{
+    margin: 5PX;
     color: white;
     background-color:  #8435de;
     background-image: linear-gradient(to right, #361a4f, #8b43e8);
     border-radius: 50%;
-    padding: 0rem;
-    height: 80px;
-    width: 80px;
+    padding:0 ;
+    height: 90px;
+    width: 90px;
     font-size: 60px;
     color: #f5f3f3;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -104,17 +108,17 @@ padding:10;
 }
 
 .ficha:hover{
+
     background: #483D8B;
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
+    transform: scale(1.1);
 
 
 }
 
 .alternativa:hover{ 
-    background: #483D8B;
-    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
-    text-shadow: none;
 
+    text-shadow: none;
     transform: scale(1.1);
   }

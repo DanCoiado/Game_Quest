@@ -1,31 +1,29 @@
-.user_card {
-    margin-top: auto;
-    margin-bottom: auto;
-    background: #F3F1F1;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    padding: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 3vh;
-    width: 80%;
-}
-    
-h2{
-    text-align: center;
-}
 
-.brand_logo_container {
+.login-FundoTotal{
+    min-height: 100vh;
+    height: 100%;
     width: 100%;
-    padding: 3%;
-    text-align: center;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
 }
 
-.brand_logo {
-    height: 80%;
-    width: 80%;
+.login-FundoApp {
+    background-image: 
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    url(./../../../images/ImagemFundo.svg);
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    justify-content: center;
+    /* flex-direction: column; */
+    height: 768px;
+    width: 1280px;
+    border-radius: 30px;
+    /*background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+                       rgba(0, 0, 0, 0.5))
+                       */
 }
 
 .login-FundoBranco{
@@ -106,62 +104,36 @@ h2{
 
 .login-Div-Forms{
     background-color: #F2F2F2;
-}
-.sair{
-    height: 4%;
-    width: 4%;
-    align-self: end;
-}
-
-.form_container {
-    margin: 10%;
-    width: 85%;
-}
     
-.principal_btn {
-    border-radius : 15vh;
-    width: 20vh;
-    background: linear-gradient(180deg, #9049EC 0%, #661DC4 50%, #9049EC 100%);
-    color: white !important;
-    text-decoration: none;
 }
 
-.principal_btn:focus {
-    box-shadow: none !important;
-    outline: 0px !important;
-    text-decoration: none;
-}
+.login-Forms-Containt{
+    height: 334px;
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
     
-.secundario_btn {
-    border-radius : 15vh;
-    width: 20vh;
-    background: linear-gradient(180deg, #057992 0%, #055566 51.56%, #057992 100%);
-    color: white !important;
-    align-self: center;
 }
 
-.secundario_btn:focus {
-    box-shadow: none !important;
-    outline: 0px !important;
+.login-Login{
+    height: 167px;
+    width: 540px;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    border-radius: 30px;
 }
 
-.login_container {
-    padding: 0 2rem;
-}
-
-.input-group-text {
-    background: #c0392b !important;
-    color: white !important;
-    border: 0 !important;
-    border-radius: 0.25rem 0 0 0.25rem !important;
-}
-
-.input_user,
-    .input_pass:focus {
-    box-shadow: none !important;
-    outline: 0px !important;
-}
-
-.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
-    background-color: #c0392b !important;
+.botao-Login{
+    background-color: #7630D9;
+    height: 60px;
+    width: 200px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    display: flex;
+    color: white;
+    border-color: #7630D9;
+    font-size: 40px;
 }

@@ -1,24 +1,18 @@
-import React from 'react'
-import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
-
-
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
 import Home from './components/pages/Home.js'
 import Cadastro from './components/pages/Cadastro.js'
 import Jogo from './components/pages/Jogo.js'
 import Login from './components/pages/Login.js'
-<<<<<<< HEAD
 import Perguntas from './components/pages/Perguntas.js'
-=======
-import HomeLogado from './components/pages/HomeLogado.js'
-import GameOver from './components/pages/GameOver.js'
->>>>>>> biadev
 
-/*import Layout from './components/layout/container.js'*/
+import logoquest from './images/logoQuestBranco.svg';
+import image from './images/ImagemFundo.svg'
 
-const App = () => {
-  return (
+import Container from './components/layout/container.js'
+
+function App() {
+  return ( 
     <Router>
-<<<<<<< HEAD
       <div>
         <Link to="/">Home</Link>
         <Link to="/Cadastro">Cadastro</Link>
@@ -45,16 +39,6 @@ const App = () => {
           </Route>
         </Container>
       </Switch>
-=======
-        <Routes>
-          <Route exact path="/" element={<Home/>}/>
-          <Route exact path="/Cadastro" element={<Cadastro/>}/>
-          <Route exact path="/Login" element={<Login/>}/>
-          <Route exact path="/HomeLogado" element={<HomeLogado/>}/>
-          <Route exact path="/Jogo" element={<Jogo/>}/>
-          <Route exact path="/GameOver" element={<GameOver/>}/>
-        </Routes>
->>>>>>> biadev
     </Router>
   );
 }
